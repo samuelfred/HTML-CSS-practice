@@ -1,0 +1,65 @@
+/* CSS Resets */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/*refered by tag - selector*/
+body{
+	color: white;
+	background: teal;
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+h1{
+	color: yellow;
+	margin: 50px;
+
+}
+
+/*refered by class (can be duplicated) - selector*/
+.second{
+	color:red;
+}
+
+.para{
+	margin: 50px;
+	border : 2px solid white;
+}
+/*refered by id (unique) - selector*/
+#sec-para{
+	color:blue;
+	/*border: 2px solid white;*/
+	/*padding: 20px;*/
+	margin: 50px;
+	/*border : 2px solid yellow;*/
+
+}
+
+
+/*float property helps to display the next element adjacent to the existing one*/
+section{
+	width:50%;
+	float:left;
+	border : 3px solid black;
+
+}
+/*remember to clear the float after the block or element */
+section::after{
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
